@@ -3,10 +3,7 @@
 A lightweight, aesthetically pleasing Chrome Extension designed to declutter the YouTube interface and improve focus. 
 
 ## ✨ Features
-* **Watched Video Filtering:** Automatically hides videos you've already watched to keep your feed fresh.
-* **Minimalist UI:** Features a calming pastel-pink (`#fff0f5`) theme with dark purple accents (`#4a154b`) for a distraction-free experience.
-* **Dynamic Calendar Grid:** Integrated UI calendar layout for tracking productivity and watch habits.
-* **Seamless Integration:** Uses native CSS injection to seamlessly remove cluttered DOM elements without slowing down the browser.
+* **Watched Video Filtering:** Automatically hides videos you've already watched to keep your feed focused.
 
 ## 🛠️ Tech Stack
 * **HTML5 & CSS3:** For structuring and styling the aesthetic popup interface (Inter font).
