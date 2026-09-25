@@ -1,11 +1,29 @@
+
 {
   "manifest_version": 3,
-  "name": "Minimalist YT Filter",
+  "name": "Aesthetic YT Filter",
   "version": "1.2",
-  "permissions": ["storage"],
-  "icons": { "128": "icon128.png" },
+  "description": "Hide YouTube videos that you have already watched.",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": { "128": "icon128.png" }
-  }
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
 }

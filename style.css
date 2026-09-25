@@ -1,115 +1,14 @@
-/* =========================================
-   Minimalist YT Filter - Main Stylesheet
-   ========================================= */
-
-/* --- Base Styles --- */
-body { 
-    width: 340px; 
-    margin: 0; 
-    padding: 0; 
-    background-color: #fff0f5; 
-    font-family: 'Inter', sans-serif; 
-    color: #4a154b; 
-}
-
-/* --- Calendar Grid --- */
-.top-grid { 
-    display: grid; 
-    grid-template-columns: repeat(7, 1fr); 
-    border-bottom: 2px solid rgba(74, 21, 75, 0.1); 
-    background-color: #fff5f7; 
-}
-
-.box { 
-    padding: 10px 0; 
-    text-align: center; 
-    font-size: 11px; 
-    color: #4a154b; 
-    border-right: 1px solid rgba(74, 21, 75, 0.05); 
-    border-bottom: 1px solid rgba(74, 21, 75, 0.05); 
-    font-weight: 500; 
-}
-
-.box:nth-child(7n) { 
-    border-right: none; 
-}
-
-/* --- Popup Content --- */
-.content { 
-    padding: 24px; 
-}
-
-.eyebrow { 
-    font-size: 9px; 
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-    margin: 0 0 12px 0; 
-    font-weight: 600; 
-    color: #9c27b0; 
-}
-
-.main-heading { 
-    font-size: 22px; 
-    line-height: 1.1; 
-    font-weight: 500; 
-    margin: 0 0 35px 0; 
-    letter-spacing: -0.5px; 
-}
-
-/* --- Sliders --- */
-.slider-container { 
-    margin-bottom: 25px; 
-}
-
-.slider-container label { 
-    display: block; 
-    font-size: 12px; 
-    font-weight: 500; 
-    margin-bottom: 10px; 
-}
-
-.aesthetic-slider { 
-    width: 100%; 
-    appearance: none; 
-    -webkit-appearance: none; 
-    height: 3px; 
-    background: rgba(74, 21, 75, 0.15); 
-    outline: none; 
-    border-radius: 2px; 
-}
-
-.aesthetic-slider::-webkit-slider-thumb { 
-    -webkit-appearance: none; 
-    appearance: none; 
-    width: 14px; 
-    height: 14px; 
-    background: #4a154b; 
-    border-radius: 50%; 
-    cursor: pointer; 
-}
-
-/* --- Buttons --- */
-.save-btn { 
-    width: 100%; 
-    background-color: transparent; 
-    color: #4a154b; 
-    border: 1.5px solid #4a154b; 
-    padding: 12px; 
-    font-size: 13px; 
-    font-weight: 600; 
-    font-family: 'Inter', sans-serif; 
-    cursor: pointer; 
-    transition: all 0.2s ease; 
-    border-radius: 6px; 
-}
-
-.save-btn:hover { 
-    background-color: #4a154b; 
-    color: #fff0f5; 
-}
-
-.save-btn.locked { 
-    background-color: #4a154b; 
-    color: #fff0f5; 
-    border-color: #4a154b; 
-}
+body { width: 340px; margin: 0; padding: 0; background-color: #fff0f5; font-family: 'Inter', sans-serif; color: #4a154b; }
+.top-grid { display: grid; grid-template-columns: repeat(7, 1fr); border-bottom: 2px solid rgba(74, 21, 75, 0.1); background-color: #fff5f7; }
+.box { padding: 10px 0; text-align: center; font-size: 11px; color: #4a154b; border-right: 1px solid rgba(74, 21, 75, 0.05); border-bottom: 1px solid rgba(74, 21, 75, 0.05); font-weight: 500; }
+.box:nth-child(7n) { border-right: none; }
+.content { padding: 24px; }
+.eyebrow { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px 0; font-weight: 600; color: #9c27b0; }
+.main-heading { font-size: 22px; line-height: 1.1; font-weight: 500; margin: 0 0 35px 0; letter-spacing: -0.5px; }
+.slider-container { margin-bottom: 25px; }
+.slider-container label { display: block; font-size: 12px; font-weight: 500; margin-bottom: 10px; }
+.aesthetic-slider { width: 100%; appearance: none; -webkit-appearance: none; height: 3px; background: rgba(74, 21, 75, 0.15); outline: none; border-radius: 2px; }
+.aesthetic-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 14px; height: 14px; background: #4a154b; border-radius: 50%; cursor: pointer; }
+.save-btn { width: 100%; background-color: transparent; color: #4a154b; border: 1.5px solid #4a154b; padding: 12px; font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif; cursor: pointer; transition: all 0.2s ease; border-radius: 6px; }
+.save-btn:hover { background-color: #4a154b; color: #fff0f5; }
+.save-btn.locked { background-color: #4a154b; color: #fff0f5; border-color: #4a154b; }
